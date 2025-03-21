@@ -77,6 +77,6 @@ class Turtle:
             self.y = 0.0
 
     def locate(self):
-        print((self.x, self.y))
+        return((self.x, self.y, (self.d*(180/math.pi))))
 
 tplt = Turtle()
